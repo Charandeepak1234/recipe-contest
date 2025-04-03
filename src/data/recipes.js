@@ -11,7 +11,7 @@ export const recipes = [
     contestWinner: false,
     featured: false,
     description: "A classic Italian pasta dish with a creamy egg-based sauce and crispy pancetta.",
-    imgUrl: "https://i.pinimg.com/564x/a9/0e/e4/a90ee4bca901e935a7a406a7d90ca6c2.jpg"
+    imgUrl: "https://source.unsplash.com/600x400/?spaghetti,carbonara"
   },
   {
     name: "Grilled Salmon",
@@ -25,7 +25,7 @@ export const recipes = [
     contestWinner: true,
     featured: true,
     description: "Perfectly grilled salmon with a zesty lemon butter sauce.",
-    imgUrl: "https://i.pinimg.com/564x/89/8b/5c/898b5c5f2ccdc9f1d3a33a1d5c79637a.jpg"
+    imgUrl: "https://source.unsplash.com/600x400/?grilled,salmon"
   },
   {
     name: "Vegan Buddha Bowl",
@@ -39,7 +39,7 @@ export const recipes = [
     contestWinner: false,
     featured: true,
     description: "A nutrient-packed bowl with quinoa, chickpeas, and fresh veggies.",
-    imgUrl: "https://i.pinimg.com/564x/0a/89/48/0a89483769be24e01a11751e6f7cbb55.jpg"
+    imgUrl: "https://source.unsplash.com/600x400/?buddha,bowl"
   },
   {
     name: "Classic Cheeseburger",
@@ -53,7 +53,7 @@ export const recipes = [
     contestWinner: true,
     featured: false,
     description: "Juicy beef patty with melted cheese, fresh lettuce, and special sauce.",
-    imgUrl: "https://i.pinimg.com/564x/52/1f/1e/521f1e2fc5e6a44c495ff662f6aa009c.jpg"
+    imgUrl: "https://source.unsplash.com/600x400/?cheeseburger"
   },
   {
     name: "Chicken Tikka Masala",
@@ -67,7 +67,7 @@ export const recipes = [
     contestWinner: false,
     featured: true,
     description: "Tender chicken in a creamy tomato-based curry, served with basmati rice.",
-    imgUrl: "https://i.pinimg.com/564x/87/38/34/873834f1a2a34c1e8e9e6e44fa299a54.jpg"
+    imgUrl: "https://source.unsplash.com/600x400/?chicken,tikka,masala"
   },
   {
     name: "Avocado Toast",
@@ -81,7 +81,7 @@ export const recipes = [
     contestWinner: false,
     featured: false,
     description: "Crispy sourdough topped with fresh avocado, tomatoes, and a drizzle of balsamic glaze.",
-    imgUrl: "https://i.pinimg.com/564x/65/84/2b/65842b0e4e5b3dfb5e676b51459e5f79.jpg"
+    imgUrl: "https://source.unsplash.com/600x400/?avocado,toast"
   },
   {
     name: "Chocolate Lava Cake",
@@ -95,7 +95,7 @@ export const recipes = [
     contestWinner: true,
     featured: true,
     description: "A rich chocolate cake with a molten lava center, served with vanilla ice cream.",
-    imgUrl: "https://i.pinimg.com/564x/96/a4/f6/96a4f6e0cbdf462fbaa328e3ddbb80d2.jpg"
+    imgUrl: "https://source.unsplash.com/600x400/?chocolate,lava,cake"
   },
   {
     name: "Caprese Salad",
@@ -104,67 +104,4 @@ export const recipes = [
     avgRating: 4.7,
     uploadedOn: "2024-03-12",
     mealType: "Appetizer",
-    dishType: "Salad",
-    testKitchenApproved: true,
-    contestWinner: false,
-    featured: true,
-    description: "Fresh mozzarella, tomatoes, and basil drizzled with balsamic reduction.",
-    imgUrl: "https://i.pinimg.com/564x/a3/82/68/a382689ea269c14cd28f39e812ae8fd5.jpg"
-  },
-  {
-    name: "Shrimp Tacos",
-    chef: "Chef Carlos",
-    totalRatings: 370,
-    avgRating: 4.8,
-    uploadedOn: "2024-02-22",
-    mealType: "Lunch",
-    dishType: "Tacos",
-    testKitchenApproved: true,
-    contestWinner: false,
-    featured: false,
-    description: "Crispy shrimp in soft corn tortillas with spicy slaw and avocado.",
-    imgUrl: "https://i.pinimg.com/564x/d4/35/89/d43589c79d08ae4c2671189aaf1ae40b.jpg"
-  },
-  {
-    name: "Mushroom Risotto",
-    chef: "Chef Lorenzo",
-    totalRatings: 400,
-    avgRating: 4.7,
-    uploadedOn: "2024-01-20",
-    mealType: "Dinner",
-    dishType: "Rice",
-    testKitchenApproved: true,
-    contestWinner: false,
-    featured: true,
-    description: "Creamy risotto made with wild mushrooms, parmesan, and fresh herbs.",
-    imgUrl: "https://i.pinimg.com/564x/1c/40/91/1c4091ef16544d826f79c70be0384c6c.jpg"
-  },
-  {
-    name: "Pancakes with Berries",
-    chef: "Chef Olivia",
-    totalRatings: 500,
-    avgRating: 4.9,
-    uploadedOn: "2024-02-05",
-    mealType: "Breakfast",
-    dishType: "Pancakes",
-    testKitchenApproved: true,
-    contestWinner: true,
-    featured: true,
-    description: "Fluffy pancakes topped with fresh berries and maple syrup.",
-    imgUrl: "https://i.pinimg.com/564x/45/6a/c8/456ac8e6b5e365d6a10bdbb1246f167e.jpg"
-  },
-  {
-    name: "Cauliflower Buffalo Wings",
-    chef: "Chef Nina",
-    totalRatings: 250,
-    avgRating: 4.6,
-    uploadedOn: "2024-03-08",
-    mealType: "Appetizer",
-    dishType: "Vegetarian",
-    testKitchenApproved: true,
-    contestWinner: false,
-    featured: false,
-    description: "Crispy baked cauliflower wings tossed in a spicy buffalo sauce.",
-    imgUrl: "https://i.pinimg.com/564x/71/97/3c/71973c3c27a41a7a3edb5bbdeebbbca3.jpg"
-  }
-];
+    dishType
